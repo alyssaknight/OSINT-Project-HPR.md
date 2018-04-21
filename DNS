@@ -1,0 +1,103 @@
+### From whois
+
+Name Server: NS1.INDEVTECH.COM
+Name Server: NS2.INDEVTECH.COM
+
+
+### From nslookup
+> set type=NS
+> INDEVTECH.com
+
+Server:		192.168.6.2
+Address:	192.168.6.2#53
+
+Non-authoritative answer:
+INDEVTECH.com	nameserver = alice.ns.cloudflare.com.
+INDEVTECH.com	nameserver = chris.ns.cloudflare.com.
+
+### From DNSRECON
+
+dnsrecon -d hawaiipublicradio.org
+Performing General Enumeration of Domain: hawaiipublicradio.org
+Checking for Zone Transfer for hawaiipublicradio.org name servers
+Resolving SOA Record
+  SOA ns1.indevtech.com 66.175.84.250
+Resolving NS Records
+NS Servers found:
+    NS ns2.indevtech.com 66.175.221.62
+    NS ns1.indevtech.com 66.175.84.250
+  
+Trying NS server 66.175.84.250
+  66.175.84.250 Has port 53 TCP Open
+  Zone Transfer Failed!
+  No answer or RRset not for qname
+
+Trying NS server 66.175.221.62
+  66.175.221.62 Has port 53 TCP Open
+  Zone Transfer Failed!
+  No answer or RRset not for qname
+  Checking for Zone Transfer for hawaiipublicradio.org name servers
+  Resolving SOA Record
+[+] 	 SOA ns1.indevtech.com 66.175.84.250
+[*] Resolving NS Records
+[*] NS Servers found:
+[*] 	NS ns2.indevtech.com 66.175.221.62
+[*] 	NS ns1.indevtech.com 66.175.84.250
+[*] Removing any duplicate NS server IP Addresses...
+[*]  
+[*] Trying NS server 66.175.84.250
+[+] 66.175.84.250 Has port 53 TCP Open
+[-] Zone Transfer Failed!
+[-] No answer or RRset not for qname
+[*]  
+[*] Trying NS server 66.175.221.62
+[+] 66.175.221.62 Has port 53 TCP Open
+[-] Zone Transfer Failed!
+[-] No answer or RRset not for qname
+[-] DNSSEC is not configured for hawaiipublicradio.org
+[*] 	 SOA ns1.indevtech.com 66.175.84.250
+[*] 	 NS ns2.indevtech.com 66.175.221.62
+[*] 	 Bind Version for 66.175.221.62 
+[*] 	 NS ns1.indevtech.com 66.175.84.250
+[*] 	 Bind Version for 66.175.84.250 9.3.6-P1-RedHat-9.3.6-4.P1.el5
+[*] 	 MX mx2.bigmountainmail.com 69.64.57.52
+[*] 	 MX mx2.bigmountainmail.com 209.126.122.18
+[*] 	 MX mx2.bigmountainmail.com 5.79.86.40
+[*] 	 MX mx2.bigmountainmail.com 5.79.86.41
+[*] 	 MX mx2.bigmountainmail.com 5.79.86.42
+[*] 	 MX mx3.bigmountainmail.com 31.204.150.41
+[*] 	 MX mx3.bigmountainmail.com 198.7.58.151
+[*] 	 MX mx3.bigmountainmail.com 199.115.117.7
+[*] 	 MX mx3.bigmountainmail.com 46.165.224.87
+[*] 	 MX mx3.bigmountainmail.com 94.75.244.176
+[*] 	 MX mx3.bigmountainmail.com 85.17.178.207
+[*] 	 MX mx3.bigmountainmail.com 209.58.183.202
+[*] 	 MX mx3.bigmountainmail.com 95.211.121.203
+[*] 	 MX mx3.bigmountainmail.com 82.192.64.142
+[*] 	 MX mx3.bigmountainmail.com 46.165.223.16
+[*] 	 MX mx3.bigmountainmail.com 46.165.223.3
+[*] 	 MX mx3.bigmountainmail.com 198.7.58.155
+[*] 	 MX mx3.bigmountainmail.com 198.7.58.153
+[*] 	 MX mx4.bigmountainmail.com 209.58.136.65
+[*] 	 MX mx1.bigmountainmail.com 46.165.217.141
+[*] 	 MX mx1.bigmountainmail.com 5.79.86.42
+[*] 	 MX mx1.bigmountainmail.com 69.64.57.61
+[*] 	 MX mx1.bigmountainmail.com 5.79.86.41
+[*] 	 MX mx1.bigmountainmail.com 154.61.81.54
+[*] 	 MX mx1.bigmountainmail.com 31.204.154.237
+[*] 	 MX mx1.bigmountainmail.com 31.204.154.236
+[*] 	 MX mx1.bigmountainmail.com 5.79.86.40
+[*] 	 MX mx1.bigmountainmail.com 85.25.237.172
+[*] 	 MX mx1.bigmountainmail.com 154.61.81.53
+[*] 	 MX mx1.bigmountainmail.com 188.138.56.29
+[*] 	 MX mx1.bigmountainmail.com 162.210.198.115
+[*] 	 MX mx1.bigmountainmail.com 138.201.61.104
+[*] 	 MX mx1.bigmountainmail.com 31.204.155.105
+[*] 	 MX mx1.bigmountainmail.com 31.204.155.103
+[*] 	 A hawaiipublicradio.org 64.125.77.80
+[*] 	 TXT hawaiipublicradio.org v=spf1 ip4:66.135.241.141 ip4:74.116.89.0/24 ip4:74.116.91.0/24 ip4:63.251.246.0/24 a:mail.hawaiipublicradio.org ~all
+
+
+### Bigmountainmail
+[Big Mountain Mai](http://bigmountainmail.com/) is an alternative to gmail 
+
