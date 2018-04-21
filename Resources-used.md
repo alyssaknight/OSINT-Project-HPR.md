@@ -1,4 +1,4 @@
-# This is a comprehensive list of all of the resources I have used throughout my project
+## This is a comprehensive list of all of the resources I have used throughout my project
 
 1. [OSINT Framework](http://osintframework.com/) This is the main site used which has most of the tools I used.
 2. [Google hacking database](https://www.exploit-db.com/google-hacking-database/)
