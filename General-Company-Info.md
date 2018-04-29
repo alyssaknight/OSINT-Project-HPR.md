@@ -39,7 +39,7 @@ From Yakima and granger Washington
 Telecommunications Technology from Peryy technical Institute (1992-1994)
 
 
-Link to list of employees of radio shows
+Link to list of employees of radio shows on air
 http://hawaiipublicradio.org/people/capacity/air
 
 
